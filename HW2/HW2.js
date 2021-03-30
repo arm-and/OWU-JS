@@ -173,13 +173,15 @@
 
 
 // for (let h = 0; h <= 2; h++) {
-//     for (let m = 0; m <=59; m++) {
-//         if(h==2 && m==20){
-//             break;
+//     for (let m = 0; m < 60; m++) {
+//         for (let s = 0; s < 60; s++) {
+//             console.log(`${h}:${m}:${s}`);
+//             if (h == 2 && m == 20){
+//                 break;
+//             }
 //         }
-//         for (let s = 0; s <=59; s++) {
-//             console.log((h) + ':' + m + ':' + s);
-//
+//         if (h == 2 && m == 20) {
+//             break;
 //         }
 //     }
 // }
