@@ -277,39 +277,41 @@ function isEvening(back) {
 }
 
 isMorning(true)
-    .then((time) => {
-        console.log(time);
+    .then((value) => {
+        console.log(value);
         return isBathroom(true)
     })
-    .then((watter) => {
-        console.log(watter);
-
+    .then((value) => {
+        console.log(value);
         return isBreakfast(true)
     })
-    .then((time) => {
-        console.log(time);
+    .then((value) => {
+        console.log(value);
 
-        return isSocialMedia(true);
+        return isSocialMedia(true)
     })
-    .then((time) => {
-        console.log(time);
+    .then((value) => {
+        console.log(value);
 
         return isProgramming(9.00);
     })
-    .then((time) => {
-        console.log(time);
+    .then((value) => {
+        console.log(value);
 
         return isDinner(13.00);
     })
-    .then((relax) => {
-        console.log(relax);
+    .then((value) => {
+        console.log(value);
 
         return isRelax(true);
     })
-    .then((back) => {
-        console.log(back);
+    .then((value) => {
+        console.log(value);
 
         return isEvening(true);
+    })
+    .then((value) => {
+        console.log(value);
     })
     .catch((err) => {
         console.log(err);
